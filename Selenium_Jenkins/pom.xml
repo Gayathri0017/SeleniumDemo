@@ -33,7 +33,6 @@
 </goals>
 <configuration>
 <mainClass>com.kiot.Sampletest</mainClass>
-<mainClass>com.kiot.Explicitwait</mainClass>
 <mainClass>com.kiot.FormPage_SC</mainClass>
 </configuration>
 </execution>
