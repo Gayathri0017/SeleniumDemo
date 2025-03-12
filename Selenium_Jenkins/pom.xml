@@ -33,7 +33,7 @@
 </goals>
 <configuration>
 <mainClass>com.kiot.Sampletest</mainClass>
-<mainClass>com.kiot.FormPage_SC</mainClass>
+<mainClass>com.kiot.FormPage</mainClass>
 </configuration>
 </execution>
 </executions>
