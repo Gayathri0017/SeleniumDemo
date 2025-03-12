@@ -1,13 +1,13 @@
 package com.kiot;
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-
 public class FormPage_SC {
 public static void main(String args[]) {
 	WebDriver driver=new ChromeDriver();
@@ -19,6 +19,15 @@ public static void main(String args[]) {
 	List<WebElement> op=s.getOptions();
 	for(WebElement ele:op) {
 		System.out.println(ele.getText());
+	}
+	List<String> options=new ArrayList<>();
+	for(WebElement ele:op) {
+		options.add(ele.getText());
+	}
+	Collections.sort(options);
+	System.out.println("Sorted value");
+	for(String val:options) {
+		System.out.println(val);
 	}
 	s.selectByVisibleText("Eggs");
 	s.selectByValue("onion gravy");
