@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <properties>
 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-<selenium.version>4.27.0</selenium.version>
+<selenium.version>4.20.0</selenium.version>
 </properties>
 <dependencies>
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -32,8 +32,12 @@
 <goal>java</goal>
 </goals>
 <configuration>
-<mainClass>com.kiot.StackDemo</mainClass>
+<mainClass>com.kiot.Sampletest</mainClass>
+<mainClass>com.kiot.BlogSpot</mainClass>
 <mainClass>com.kiot.FormPage</mainClass>
+<mainClass>com.kiot1.StackDemo</mainClass>
+<mainClass>com.kiot.Explicitwait</mainClass>
+<mainClass>com.kiot1.TestLeaf</mainClass>
 </configuration>
 </execution>
 </executions>
