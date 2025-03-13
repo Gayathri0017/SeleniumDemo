@@ -38,6 +38,7 @@
 <mainClass>com.kiot1.StackDemo</mainClass>
 <mainClass>com.kiot.Explicitwait</mainClass>
 <mainClass>com.kiot1.TestLeaf</mainClass>
+<mainClass>com.kiot1.actionClass</mainClass>
 </configuration>
 </execution>
 </executions>
