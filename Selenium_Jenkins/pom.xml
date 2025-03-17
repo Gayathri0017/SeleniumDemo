@@ -32,13 +32,7 @@
 <goal>java</goal>
 </goals>
 <configuration>
-<mainClass>com.kiot.Sampletest</mainClass>
-<mainClass>com.kiot.BlogSpot</mainClass>
-<mainClass>com.kiot.FormPage</mainClass>
-<mainClass>com.kiot1.StackDemo</mainClass>
-<mainClass>com.kiot.Explicitwait</mainClass>
-<mainClass>com.kiot1.TestLeaf</mainClass>
-<mainClass>com.kiot1.actionClass</mainClass>
+<mainClass>com.kiot.Frame_LeafGround</mainClass>
 </configuration>
 </execution>
 </executions>
