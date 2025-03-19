@@ -35,6 +35,7 @@
 <mainClass>com.kiot.Frame_LeafGround</mainClass>
 <mainClass>com.kiot1.Alert_Omeyo</mainClass>
 <mainClass>com.kiot1.DragDrop</mainClass>
+<mainClass>com.kiot1.Google_JSE</mainClass>
 </configuration>
 </execution>
 </executions>
